@@ -19,6 +19,8 @@ int main() {
     char currentPlayer = 'W';
     player->getPiece(chessBoard, &currentPlayer, &stillPlaying);
 
+    delete ruleSet;
+    delete player;
     delete chessBoard;
     return 0;
 }
