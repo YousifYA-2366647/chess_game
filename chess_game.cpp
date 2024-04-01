@@ -15,7 +15,6 @@ int main() {
 
     player->makeBoard(chessBoard);
 
-    std::vector<std::vector<Piece*>> boardPieces = chessBoard->getBoard();
     char currentPlayer = 'W';
     player->getPiece(chessBoard, &currentPlayer, &stillPlaying);
 
